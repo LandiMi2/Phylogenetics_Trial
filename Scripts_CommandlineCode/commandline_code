@@ -1,0 +1,12 @@
+#Commandline used to modify fasta file 
+
+#To extra HA genes in the sequence.fasta file 
+$fasgrep -di "hemagglutinin" sequence.fasta > HA_genes.fa  
+
+#To modify sequence header 
+$cut -d ' ' -f1,5 HA_genes.fa > new_file.fa  #(depending on the fields you want to extract)
+
+#To remove space in the header sequence 
+$sed 's, ,_,g' -i new_file.fa 
+
+
