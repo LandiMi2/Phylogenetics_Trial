@@ -10,6 +10,9 @@ Folder data has addictional two fasta files, one having complete sequnce of HA g
 
 Notebook shows a simple python code used to eliminate short sequences.
 
+# Update_2
+Folder Results has a tree drawn using Mega software(Maximum Likelihood Method) , MSA used was MUSCLE
+
 
 __comment below__ Mike Javan
 
